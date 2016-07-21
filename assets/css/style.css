@@ -11,6 +11,10 @@ body {
 	padding: 50px 50px;
 }
 
+h1, h2 {
+	font-family: 'Pacifico', cursive;
+}
+
 p { font-size: 25px; line-height: 1.5; }
 
 a { color: #c5c5c5; }
@@ -86,70 +90,71 @@ margin: 0 0 0;
 
 .fluid-height { height: 100% !important; }
 
+/*TODO: change shadow colors for gradient*/
 .shadow { /* Used on any div you want a long shadow on */
 	box-shadow:
-		#262525 1px 1px,
-  	#262525 2px 2px,
-    #262525 3px 3px,
-    #262525 4px 4px,
-    #262525 5px 5px,
-    #262525 6px 6px,
-    #262525 7px 7px,
-    #262525 8px 8px,
-    #262525 9px 9px,
-    #262525 10px 10px,
-    #262525 11px 11px,
-    #262525 12px 12px,
-    #262525 13px 13px,
-    #262525 14px 14px,
-    #262525 15px 15px,
-    #262525 16px 16px,
-    #262525 17px 17px,
-    #262525 18px 18px,
-    #272626 19px 19px,
-    #272626 20px 20px,
-    #272626 21px 21px,
-    #272626 22px 22px,
-    #282727 23px 23px,
-    #282727 24px 24px,
-    #282727 25px 25px,
-    #282727 26px 26px,
-    #292828 27px 27px,
-    #292828 28px 28px,
-    #292828 29px 29px,
-    #292828 30px 30px,
-    #2a2929 31px 31px,
-    #2a2929 32px 32px,
-    #2a2929 33px 33px,
-    #2a2929 34px 34px,
-    #2b2a2a 35px 35px,
-    #2b2a2a 36px 36px,
-    #2b2a2a 37px 37px,
-    #2b2a2a 38px 38px,
-    #2c2b2b 39px 39px,
-    #2c2b2b 40px 40px,
-    #2c2b2b 41px 41px,
-    #2c2b2b 42px 42px,
-    #2c2c2c 43px 43px,
-    #2c2c2c 44px 44px,
-    #2c2c2c 45px 45px,
-    #2c2c2c 46px 46px,
-    #2d2d2d 47px 47px,
-    #2d2d2d 48px 48px,
-    #2d2d2d 49px 49px,
-    #2d2d2d 50px 50px,
-    #2e2e2e 51px 51px,
-    #2e2e2e 52px 52px,
-    #2e2e2e 53px 53px,
-    #2f2f2f 54px 54px,
-    #2f2f2f 55px 55px,
-    #2f2f2f 56px 56px,
-    #303030 57px 57px,
-    #303030 58px 58px,
-    #303030 59px 59px,
-    #313131 60px 60px,
-    #313131 61px 61px,
-    #313131 62px 62px; }
+		#d4d3d3 1px 1px,
+		#d4d3d3 2px 2px,
+    #d4d3d3 3px 3px,
+    #d4d3d3 4px 4px,
+    #d4d3d3 5px 5px,
+    #d4d3d3 6px 6px,
+    #d4d3d3 7px 7px,
+    #d4d3d3 8px 8px,
+    #d4d3d3 9px 9px,
+    #d4d3d3 10px 10px,
+    #d4d3d3 11px 11px,
+    #d4d3d3 12px 12px,
+    #d4d3d3 13px 13px,
+    #d4d3d3 14px 14px,
+    #d4d3d3 15px 15px,
+    #d4d3d3 16px 16px,
+    #d4d3d3 17px 17px,
+    #d4d3d3 18px 18px,
+    #d4d3d3 19px 19px,
+    #d4d3d3 20px 20px,
+    #d4d3d3 21px 21px,
+    #d4d3d3 22px 22px,
+    #d4d3d3 23px 23px,
+    #d4d3d3 24px 24px,
+    #d4d3d3 25px 25px,
+    #d4d3d3 26px 26px,
+    #d4d3d3 27px 27px,
+    #d4d3d3 28px 28px,
+    #d4d3d3 29px 29px,
+    #d4d3d3 30px 30px,
+    #d4d3d3 31px 31px,
+    #d4d3d3 32px 32px,
+    #d4d3d3 33px 33px,
+    #d4d3d3 34px 34px,
+    #d4d3d3 35px 35px,
+    #d4d3d3 36px 36px,
+    #d4d3d3 37px 37px,
+    #d4d3d3 38px 38px,
+    #d4d3d3 39px 39px,
+    #d4d3d3 40px 40px,
+    #d4d3d3 41px 41px,
+    #d4d3d3 42px 42px,
+    #d4d3d3 43px 43px,
+    #d4d3d3 44px 44px,
+    #d4d3d3 45px 45px,
+    #d4d3d3 46px 46px,
+    #d4d3d3 47px 47px,
+    #d4d3d3 48px 48px,
+    #d4d3d3 49px 49px,
+    #d4d3d3 50px 50px,
+    #d4d3d3 51px 51px,
+    #d4d3d3 52px 52px,
+    #d4d3d3 53px 53px,
+    #d4d3d3 54px 54px,
+    #d4d3d3 55px 55px,
+    #d4d3d3 56px 56px,
+    #d4d3d3 57px 57px,
+    #d4d3d3 58px 58px,
+    #d4d3d3 59px 59px,
+    #d4d3d3 60px 60px,
+    #d4d3d3 61px 61px,
+    #d4d3d3 62px 62px; }
 
 /* Span Colors (really hard to name the colors) */
 .orange { background: #d5665b; /* #D3643B */; }
@@ -165,6 +170,11 @@ margin: 0 0 0;
 .midplum { background: #6b4d56; }
 .redplum { background: #794147; }
 .darkred { background: #863538; }
+.navyblue { color: #333C98; }
+.coral { background: #F0506A; }
+.white { background: #FFFFFF; }
+
+
 
 /* Content Styles */
 .outer-box {
@@ -179,6 +189,7 @@ margin: 0 0 0;
 	overflow: hidden; }
 
 .border { border: 5px solid #fff;}
+.border-color { border: 5px solid #faa732;}
 
 .outer-box-work {
 	padding: 20px;
@@ -791,9 +802,9 @@ input[placeholder], [placeholder], *[placeholder] { color: #fff !important; }
   -o-background-size: cover;
   background-size: cover; }
 
-.imagebg-1 { background: url('../img/mina_avatar_310x310.JPG') no-repeat center bottom; }
+.imagebg-1 { background: #F0506A url('../img/mina_avatar_wide.JPG') no-repeat center bottom; }
 
-.imagebg-2 { background: #00B4CC url('../img/card.png') no-repeat center bottom; }
+.imagebg-2 { background: #00B4CC url('../img/bg_stripes.png') repeat center bottom; }
 
 .imagebg-3 { background: #323232 url('../img/3.jpg') no-repeat center bottom; }
 
@@ -1110,10 +1121,22 @@ input[placeholder], [placeholder], *[placeholder] { color: #fff !important; }
 	width: 30%;
 	height: 60px;
 	float: left;
-	margin-top: 70px; } }
+	margin-top: 70px; }
+.shrink-text { font-size: 22px; line-height: 1.5; }
+ }
 
 @media (max-width: 767px) {
 body { padding: 20px;}
 .outer-box {
 	width: 105%;
-	left: -5%; } }
+	left: -5%; }
+.shrink-text { font-size: 20px; line-height: 1.5; }
+}
+
+@media (max-width: 500px) {
+body { padding: 20px;}
+.outer-box {
+	width: 105%;
+	left: -5%; }
+.shrink-text { font-size: 18px; line-height: 1; }
+}
