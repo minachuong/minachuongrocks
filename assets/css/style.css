@@ -806,7 +806,8 @@ input[placeholder], [placeholder], *[placeholder] { color: #fff !important; }
 
 .imagebg-2 { background: #00B4CC url('../img/bg_stripes.png') repeat center bottom; }
 
-.imagebg-3 { background: #323232 url('../img/3.jpg') no-repeat center bottom; }
+.imagebg-3 { background: #323232 url('../img/paulsplanner_01_ht300.png') no-repeat left top;
+color: #F0506A; }
 
 .imagebg-4 { background: #323232 url('../img/14.jpg') no-repeat center bottom; }
 
@@ -1139,4 +1140,17 @@ body { padding: 20px;}
 	width: 105%;
 	left: -5%; }
 .shrink-text { font-size: 18px; line-height: 1; }
+}
+
+.slide_pic:hover {
+	background: url('../img/paulsplanner_ht300_blur.png')
+}
+
+.slide-text {
+	text-align: right;
+	padding-right: 15px;
+	padding-top: 180px;
+}
+.slide-text:hover {
+ text-shadow: 1px 1px black;
 }
