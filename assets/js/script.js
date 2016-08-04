@@ -13,10 +13,10 @@ function menu() {
 		});
 		} else {
 		$(".menu").stop().animate({
-		    marginTop: 0 
+		    marginTop: 0
 		});
 	};
-	}); 
+	});
 	$('.scroll').smoothScroll();
 }
 
@@ -83,7 +83,7 @@ function panels() {
                 'width': 'hide'
             }, 1000);
         });
-    }); 
+    });
 	// portfolio panel
     $("#portfolio, #portfolio2, #portfolio3, #portfolio4, #portfolio5, #portfolio6, #portfolio7, #portfolio8, #portfolio9").on('click', function() {
     	$("body").addClass("no-scroll");
@@ -103,7 +103,7 @@ function panels() {
     });
 }
 
-function blogposts() { // only use if span is at the end of the row 
+function blogposts() { // only use if span is at the end of the row
 	$("#blogone").click(function(){
 		$(".blog-post-item.one").toggleClass("reveal");
 		$(".blog-post-item.two").removeClass("reveal"); // you dont have to add this line
@@ -111,7 +111,7 @@ function blogposts() { // only use if span is at the end of the row
 	$("#blogtwo").click(function(){
 		$(".blog-post-item.two").toggleClass("reveal");
 		$(".blog-post-item.one").removeClass("reveal"); // you dont have to add this line
-	});  
+	});
 }
 
 function contentslider() {
@@ -121,12 +121,12 @@ function contentslider() {
 		directionNav: false
 	});
 }
-
-function map() {
-	new GMaps({
-		div: '#map',
-		lat: 40.71435,
-		lng: -74.00597,
-		scrollwheel: false
-	});
-}
+//
+// function map() {
+// 	new GMaps({
+// 		div: '#map',
+// 		lat: 40.71435,
+// 		lng: -74.00597,
+// 		scrollwheel: false
+// 	});
+// }

@@ -210,6 +210,7 @@ margin: 0 0 0;
 	border: 5px solid #d4d3d3;
 }
 
+
 .outer-box-work {
 	padding: 20px;
 	height: auto;
@@ -1287,4 +1288,9 @@ p.inline {
 .text-right-bottom {
 	text-align: right;
 	padding-top: 200px;
+}
+
+.quotes {
+	padding-left: 20px;
+	font-size: 18px;
 }
