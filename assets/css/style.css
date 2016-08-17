@@ -181,6 +181,8 @@ margin: 0 0 0;
 .darkerblue { background: #06213d}
 /*text colors*/
 .navyblue { color: #333C98; }
+.white-text { color: #FFF; }
+.white-text:hover { color: #000; }
 
 
 /* Content Styles */
@@ -726,6 +728,18 @@ margin: 0 0 0;
 	padding-right: 5px;
 }
 
+#toolset_icon01 {
+	padding-top: 18px;
+	text-align: center;
+	background-image: url("../img/rspec_logo.png");
+}
+.left-space-12 {
+	margin-left: 12px;
+}
+.left-space-6 {
+	margin-left: 6px;
+}
+
 /*------------- Contact Styles -------------*/
 
 .bordered-input {
@@ -840,10 +854,9 @@ color: #F0506A; }
 
 .imagebg-5 { background: #323232 url('../img/paulsplanner_team_300.png') no-repeat center; }
 
-/*TODO: LEARN ACADEMY*/
-.imagebg-6 { background: #323232 url('../img/learn_academy_logo.jpg') no-repeat center bottom; }
+.imagebg-6 { background: #6ed23b url('../img/learn_academy_logo.png') no-repeat center; }
 
-.imagebg-7 { background: #323232 url('../img/7.jpg') no-repeat center bottom; }
+.imagebg-7 { background: #06213d url('http://sdtechscene.org/wp-content/uploads/2014/08/sd-tech-scene-logo-min.png') no-repeat center; }
 
 .imagebg-8 { background: #323232 url('../img/8.jpg') no-repeat center bottom; }
 
@@ -1164,21 +1177,26 @@ body { padding: 20px;}
 
 @media (max-width: 500px) {
 
-body { padding: 20px;}
+	body { padding: 20px;}
 
-.outer-box {
-	width: 105%;
-	left: -5%; }
+	.outer-box {
+		width: 105%;
+		left: -5%; }
 
-.shrink-text { font-size: 18px; line-height: 1; }
+	.shrink-text { font-size: 18px; line-height: 1; }
 
-.svg_icons {
-	height: 48px;
-  width: 48px;
-  padding-left: 5px;
-  padding-right: 5px;
-  padding-top: 15px;
-  padding-bottom: 5px;}
+	.svg_icons {
+		height: 48px;
+	  width: 48px;
+		padding: 15px 5px 5px;
+	  }
+
+	#toolset_icon01 {
+		padding-top: 18px;
+		text-align: center;
+		background-image: url("../img/rspec_logo32.png");
+		background-repeat: no-repeat;}
+
 
 }
 
@@ -1188,21 +1206,13 @@ body { padding: 20px;}
 	.svg_icons {
 		height: 32px;
 	  width: 32px;
-	  padding-left: 3px;
-	  padding-right: 3px;
-	  padding-top: 15px;
-	  padding-bottom: 5px;}
-}
+		padding: 15px 3px 5px;}
+	#toolset_icon01 {
+		padding-top: 9px;
+		text-align: center;
+		background-image: url("../img/rspec_logo32.png") center no-repeat;}
 
-/*.slide-pic-1:hover {
-	background: url('../img/paulsplanner_ht300_blur.png')
 }
-.slide-pic-2:hover {
-	background: url('../img/mina_aerial_mermaid_300_bgfullblur.png') no-repeat center;
-}
-.slide-pic-3:hover {
-	background: url('../img/paulsplanner_team_300_fullblur.png') no-repeat center;
-}*/
 
 .slide-text-1 {
 	text-align: right;
@@ -1224,9 +1234,7 @@ body { padding: 20px;}
 
 .slide-text-3 {
 	text-align: left;
-	padding-left: 20px;
-	padding-top: 20px;
-	padding-bottom: 10px;
+	padding: 20px auto 10px 20px;
 	color: #F0506A;
 	font-weight: 400;
 	font-size: 30px;
@@ -1261,10 +1269,6 @@ body { padding: 20px;}
 	padding: 10px;
 }
 
-.icon-tools {
-	padding-left: 15px;
-	padding-right: 15px;
-}
 p.inline {
 	padding-top: 10px;
 }
@@ -1273,7 +1277,10 @@ p.inline {
 	opacity: 0.5;
 }
 
-/*TODO: figure out how to make div clear span?*/
+.icon-tools {
+	padding: auto 15px;
+}
+
 .block {
 	/*margin-top: 20px;*/
 	clear: both;
@@ -1281,13 +1288,14 @@ p.inline {
 	padding-top: 20px;
 }
 
-#tech_scene {
-	padding-top: 30px;
-}
-
 .text-right-bottom {
 	text-align: right;
 	padding-top: 200px;
+}
+.text-center-bottom {
+	text-align: center;
+	padding-top: 170px;
+	padding-bottom: 20px;
 }
 
 .quotes {
