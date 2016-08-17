@@ -21,6 +21,7 @@ h4 {
 
 p { font-size: 25px; line-height: 1.5; }
 
+
 a { color: #c5c5c5; }
 
 a:hover {
@@ -182,6 +183,7 @@ margin: 0 0 0;
 /*text colors*/
 .navyblue { color: #333C98; }
 .white-text { color: #FFF; }
+.sage-text { color: #94C7B6; }
 .white-text:hover { color: #000; }
 
 
@@ -847,10 +849,12 @@ input[placeholder], [placeholder], *[placeholder] { color: #fff !important; }
 
 .imagebg-2 { background: #00B4CC url('../img/bg_stripes.png') repeat center bottom; }
 
-.imagebg-3 { background: #323232 url('../img/paulsplanner_01_ht300.png') no-repeat left top;
+.imagebg-3 { background: #00B4CC url('../img/paulsplanner_01_ht300.png') no-repeat left top;
 color: #F0506A; }
 
-.imagebg-4 { background: #323232 url('../img/mina_aerial_mermaid_300_bgblur.png') no-repeat center; }
+.imagebg-3-panel { background: #00B4CC url('../img/paulsplanner_landing.png') no-repeat left top; }
+
+.imagebg-4 { background: #F0506A url('../img/mina_aerial_mermaid_300_bgblur.png') no-repeat center; }
 
 .imagebg-5 { background: #323232 url('../img/paulsplanner_team_300.png') no-repeat center; }
 
@@ -858,7 +862,8 @@ color: #F0506A; }
 
 .imagebg-7 { background: #06213d url('http://sdtechscene.org/wp-content/uploads/2014/08/sd-tech-scene-logo-min.png') no-repeat center; }
 
-.imagebg-8 { background: #323232 url('../img/8.jpg') no-repeat center bottom; }
+/*FIXME: when window resizes*/
+.imagebg-8 { background: #323232 url('../img/mina_speaking325.jpg') no-repeat center; }
 
 .imagebg-9 { background: #323232 url('../img/9.jpg') no-repeat center bottom; }
 
@@ -1097,8 +1102,8 @@ color: #F0506A; }
 .btn-success {
     color: white;
     text-shadow: none;
+		border-color: #5bb75b; }
     background-color: #5bb75b;
-    border-color: #5bb75b; }
 .btn-success:hover,
 .btn-success:focus,
 .btn-success:active,
@@ -1261,12 +1266,12 @@ body { padding: 20px;}
 	font-size: 22px;
 }
 
-.inline {
-	float:left;
-}
-
 .icon {
 	padding: 10px;
+}
+
+.inline {
+	float:left;
 }
 
 p.inline {
@@ -1301,4 +1306,20 @@ p.inline {
 .quotes {
 	padding-left: 20px;
 	font-size: 18px;
+}
+
+.box-list-text {
+	font-size: 20px;
+	line-height: 1.5;
+	list-style: none;
+}
+
+.portfolio-info-text {
+	padding: 10px;
+	font-size: 18px;
+	margin-bottom: 0px;
+}
+
+.font-small {
+	font-size: 16px;
 }

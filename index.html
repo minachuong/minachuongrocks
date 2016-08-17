@@ -90,25 +90,55 @@
                 <span class="closeicon"><i class="icon-remove"></i></span>
                 <div class="row">
                     <div class="col-xs-12 col-sm-8 col-md-8 col-lg-8 hidden-xs">
-                    	<div class="well imagebg-3 fixed-height"></div>
+                    	<div class="well imagebg-3-panel fixed-height"></div>
                     </div>
                     <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
                     	<div class="well purple fixed-height">
-                        	<h2>Project that we worked on and is cool</h2>
+                        <p class="portfolio-info-text">
+                          <a href="http://pauls-planner.herokuapp.com/">Visit Paul's Planner</a>
+                          <a href="https://github.com/scfernz/PaulsPlanner">Check Out Our Code</a>
+                        </p>
+                        <p class="portfolio-info-text">
+                          Built with: Ruby on Rails, Javascript, jQuery, and Bootstrap
+                        </p>
+                        <p class="portfolio-info-text">
+                          Gems include: FB OAuth, Rolify, Devise, Paperclip & CanCanCan
+                        </p>
                     	</div>
                     </div>
                 </div>
                 <div class="row">
                 	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 	                    <div class="well plum fluid-height overflow-show">
-	                        <h2>Portfolio Item</h2>
+	                        <h2>Paul's Planner</h2>
 	                        <p>
-	                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed congue odio. Aliquam sed mi id massa faucibus dapibus. Suspendisse et mi felis. Nam ornare orci in tortor tempor porta. Fusce sed dapibus nisi, ut scelerisque ligula. Donec at leo est. Morbi condimentum fermentum tellus, ac mattis felis rutrum vitae.
-	                        </p>
+                            Inspired by one of our bootcamp instructors who documented all student progress in a handwritten notebook, we sought to provide him with a web app that would allowed him keep track of tasks and meetings.
+                          </p>
 	                        <div class="outer-box-work">
-	                            <p>Donec molestie, lacus a egestas feugiat, odio odio tincidunt enim, et consectetur tortor nisl eu arcu. Ut nec ultricies augue, sit amet ultricies mauris. In erat nisi, scelerisque in nisl et, pretium imperdiet arcu. Suspendisse potenti.</p>
+	                            <p>
+                                My personal contributions consisted of:
+                                <ul class="box-list-text">
+                                  <li>
+                                    > implementing the ability for students to schedule meetings with teachers
+                                  </li>
+                                  <li>
+                                    > making UX improvements that involved making indexes easily usable and assuring members within a cohort easily identifiable to other members
+                                  </li>
+                                  <li>
+                                    > providing graphic design elements and assuring UI consistency throughout the app
+                                  </li>
+                                  <li>
+                                    > refining permissions and controlling access for different users
+                                  </li>
+                                  <li>
+                                    > behavior-driven development with Capybara and Cucumber
+                                  </li>
+                                </ul>
+                              </p>
 	                        </div>
-	                        <p class="big">In elementum interdum risus, nec vulputate erat rutrum at. Fusce posuere adipiscing tempor. Aenean bibendum a leo at elementum. Curabitur ut lectus at enim gravida mollis. Aliquam nisi mi, rutrum nec dolor at, ullamcorper ornare est. Fusce cursus consectetur mauris vel laoreet. Sed ligula tortor, gravida in nibh non, luctus semper orci. Aliquam sed pretium diam, non elementum purus. In purus erat, mollis a congue sit amet, elementum ut enim. Phasellus blandit sapien at orci dictum tempus. Nullam et lobortis orci.
+	                        <p class="big">Process:</p>
+                          <p>
+                            Our team was able to maximize our performance using Agile development: daily morning scrums and code review at the end of the day. Our team greatly valued making sure everyone was on the same page and shared goals. It was a special experience for me because it opened up by eyes to how a team can find resolution and be more productive as a result.
 	                        </p>
 	                    </div>
 	                </div>
@@ -477,9 +507,9 @@
 	                    <!-- <div class="span3 pull-right padding border">
 	                        <h2 class="text-center">Hello!</h2>
 	                    </div> -->
-	                    <p>I hail from the beautiful land that is San Diego, California. As a math tutor for five years, I turned to programming not only to automate repetitive tasks needed to prepare learning materials but to also demonstrate how math concepts were still applicable. I found myself at San Diego's first programming bootcamp <a href="https://www.learnacademy.org/" target="_blank">LEARN Academy</a> in the summer of 2016. I am excited about developing educational tools and helping social-impact organizations have the platforms they need to meet their goals.</p>
+	                    <p>I hail from the beautiful land that is San Diego, California. As a math tutor for five years, I turned to programming not only to automate repetitive tasks needed to prepare learning materials but to also demonstrate how math concepts are still worth learning. I found myself at San Diego's first programming bootcamp <a href="https://www.learnacademy.org/" target="_blank">LEARN Academy</a> in the summer of 2016. I am excited about developing educational tools and helping social-impact organizations have the platforms they need to meet their goals.</p>
 	                    <div class="outer-box border-blue">
-                        <p class="quotes">Happiness is when what you <span class="bold">think</span>, what you <span class="bold">say</span>, and what you <span class="bold">do</span> are in harmony. </p>
+                        <p class="quotes">"Happiness is when what you <span class="bold">think</span>, what you <span class="bold">say</span>, and what you <span class="bold">do</span> are in harmony."</p>
                         <p class="quotes">- Mahatma Gandhi</p>
 	                    </div>
 	                </div>
@@ -543,27 +573,32 @@
 	            </p>
 	        </div> -->
 	        <div class="row">
-	            <div class="col-xs-12 col-sm-8 col-md-8 col-lg-8 large" id="work">
-	            	<div class="well sedgebrown overflow-show large">
+	            <div class="col-xs-12 col-sm-8 col-md-8 col-lg-8" id="work">
+	            	<div class="well sedgebrown overflow-show">
 		                <h2>Collaborative Work</h2>
-		                <p>
+		                <!-- <p>
                       Communication goes beyond hearing what someone is saying. It's about trust
-                    </p>
-		                <div class="outer-box-work"> <!-- changeable in css -->
-		                    <p>
-		                        Maecenas tellus <span class="bold">design</span> sit amet nunc. <span class="bold">is</span> Integer volutpat condimentum <span class="bold">key</span> ligula id luctus.
+                    </p> -->
+		                <!-- changeable in css -->
+                    <div class="outer-box-work">
+		                    <p class="quotes">
+		                        "If I can listen in a healthy way, I don’t need to drop out and give up the insights my team deserves."
+		                    </p>
+		                    <p class="quotes">
+		                        -Jean Tabaka
 		                    </p>
 		                </div>
 		            </div>
 	            </div>
 	            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-	                <div class="imagebg-3 well"> <!-- using css for full div background -->
-	                    <h2>Make ideas become reality.</h2>
+	                <!-- using css for full div background -->
+                  <div class="imagebg-8 well">
+	                    <h2 class="sage-text text-right-bottom">Sharing is Caring</h2>
 	                </div>
-	                <div class="well ecru">
+	                <!-- <div class="well ecru">
 	                    <p class="big"><i class="icon-quote-left"></i> Consectetur adipiscing elit. Sed ullamcorper ut lorem eu dapibus. Nullam et lobortis orci. <i class="icon-quote-right"></i></p>
 	                    <p class="big">James Doe</p>
-	                </div>
+	                </div> -->
 	            </div>
 	        </div>
 	        <div class="row">
@@ -572,7 +607,7 @@
 			            <div class="portfolio-img one"> <!-- uses backstretch.js for full div effect, changable in script.js -->
 			                <div class="hover-effect effect-one">
 			                    <p class="text-center">
-			                        Portfolio Item #1
+			                        Click to learn more about my contributions
 			                    </p>
 			                </div>
 			            </div>
@@ -594,7 +629,7 @@
 			            <div class="portfolio-img three">
 			                <div class="hover-effect effect-three">
 			                    <p class="text-center">
-			                        Portfolio Item #3
+			                        Hourslogger
 			                    </p>
 			                </div>
 			            </div>
@@ -674,15 +709,15 @@
 	        <div class="row">
 	            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
 	                <div class="midplum well hidden-xs">
-	                    <h2>Address</h2>
+	                    <!-- <h2>Address</h2>
 	                    <p>Eversage Terrace,</p>
 	                    <p>Springfield,</p>
 	                    <p>United States,</p>
-	                    <p>SP 10014</p>
+	                    <p>SP 10014</p> -->
 	                </div>
 	                <div class="well redplum">
-	                    <p><i class="icon-phone contact-icon"></i> 012 345 6789</p>
-	                    <p><i class="icon-envelope-alt contact-icon"></i><a href="mailto:email@domain.com">email@domain.com</a></p>
+	                    <!-- <p><i class="icon-phone contact-icon"></i> </p> -->
+	                    <p><i class="icon-envelope-alt contact-icon"></i><a href="mailto:email@domain.com" class="font-small">mina.chuong@gmail.com</a></p>
 	                    <a href="#">
 	                        <p class="social"><i class="icon-facebook"></i></p>
 	                    </a>

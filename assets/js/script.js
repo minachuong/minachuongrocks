@@ -24,15 +24,14 @@ function menu() {
 function backstretch() { // used for fulldiv backgrounds
 	$(".bp-post").backstretch("assets/img/11.jpg");
 	$(".photo-album").backstretch([
-		"assets/img/7.jpg", "assets/img/11.jpg", "assets/img/3.jpg"
-		], {
+		"assets/img/blese_ele_sanctuary.jpg", "assets/img/mina_bike_balboapark.jpg"], {
 		duration: 10000,
 		fade: 750
 	});
 	$(".bp-post.two").backstretch("assets/img/12.jpg");
-	$(".portfolio-img.one").backstretch("assets/img/paulsplanner_01_ht300.png");
-	$(".portfolio-img.two").backstretch("assets/img/9.jpg");
-	$(".portfolio-img.three").backstretch("assets/img/10.jpg");
+	$(".portfolio-img.one").backstretch("assets/img/paulsplanner_landing.png");
+	// $(".portfolio-img.two").backstretch("assets/img/9.jpg");
+	$(".portfolio-img.three").backstretch("assets/img/hourslogger_clock_logo.jpg");
 	$(".portfolio-img.four").backstretch("assets/img/11.jpg");
 	$(".portfolio-img.five").backstretch("assets/img/12.jpg");
 	$(".portfolio-img.six").backstretch("assets/img/13.jpg");
@@ -42,15 +41,14 @@ function backstretch() { // used for fulldiv backgrounds
     $(window).resize(function () {
 	$(".bp-post").backstretch("assets/img/11.jpg");
 	$(".photo-album").backstretch([
-		"assets/img/7.jpg", "assets/img/11.jpg", "assets/img/3.jpg"
-		], {
+		"assets/img/blese_ele_sanctuary.jpg", "assets/img/mina_bike_balboapark.jpg"], {
 		duration: 10000,
 		fade: 750
 	});
 	$(".bp-post.two").backstretch("assets/img/12.jpg");
-	$(".portfolio-img.one").backstretch("assets/img/paulsplanner_01_ht300.png");
+	$(".portfolio-img.one").backstretch("assets/img/paulsplanner_landing.png");
 	$(".portfolio-img.two").backstretch("assets/img/9.jpg");
-	$(".portfolio-img.three").backstretch("assets/img/10.jpg");
+	$(".portfolio-img.three").backstretch("assets/img/hourslogger_clock_logo.jpg");
 	$(".portfolio-img.four").backstretch("assets/img/11.jpg");
 	$(".portfolio-img.five").backstretch("assets/img/12.jpg");
 	$(".portfolio-img.six").backstretch("assets/img/13.jpg");
