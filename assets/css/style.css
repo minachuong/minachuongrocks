@@ -862,10 +862,9 @@ color: #F0506A; }
 
 .imagebg-7 { background: #06213d url('http://sdtechscene.org/wp-content/uploads/2014/08/sd-tech-scene-logo-min.png') no-repeat center; }
 
-/*FIXME: when window resizes*/
-.imagebg-8 { background: #323232 url('../img/mina_speaking325.jpg') no-repeat center; }
+.imagebg-8 { background: #323232 url('../img/mina_speaking300.jpg') no-repeat right; }
 
-.imagebg-9 { background: #323232 url('../img/9.jpg') no-repeat center bottom; }
+.imagebg-9 { background: #323232 url('../img/9.jpg') no-repeat center; }
 
 .imagebg-10 { background: #323232 url('../img/10.jpg') no-repeat center bottom; }
 
@@ -1173,11 +1172,11 @@ color: #F0506A; }
  }
 
 @media (max-width: 767px) {
-body { padding: 20px;}
-.outer-box {
-	width: 105%;
-	left: -5%; }
-.shrink-text { font-size: 20px; line-height: 1.5; }
+	body { padding: 20px;}
+	.outer-box {
+		width: 105%;
+		left: -5%; }
+	.shrink-text { font-size: 20px; line-height: 1.5; }
 }
 
 @media (max-width: 500px) {
@@ -1201,7 +1200,6 @@ body { padding: 20px;}
 		text-align: center;
 		background-image: url("../img/rspec_logo32.png");
 		background-repeat: no-repeat;}
-
 
 }
 
@@ -1239,7 +1237,7 @@ body { padding: 20px;}
 
 .slide-text-3 {
 	text-align: left;
-	padding: 20px auto 10px 20px;
+	padding: 20px 20px 10px 20px;
 	color: #F0506A;
 	font-weight: 400;
 	font-size: 30px;
