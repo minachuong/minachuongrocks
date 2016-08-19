@@ -180,6 +180,9 @@ margin: 0 0 0;
 .white { background: #FFFFFF; }
 .almost-white { background: #f5f5f5; }
 .darkerblue { background: #06213d}
+.turquoise { background: #03b7b7}
+.softblue { background: #a1d7ec}
+
 
 /*text colors*/
 .navyblue-text { color: #333C98; }
@@ -228,13 +231,12 @@ margin: 0 0 0;
 
 
 .outer-box-work {
-	padding: 20px;
+	padding: 40px;
 	height: auto;
-	width: 81.5%;
+	width: 95%;
 	position: relative;
 	left: -33px;
 	margin: 30px 0;
-	border: 5px solid #F0506A;
 	overflow: hidden; }
 
 .outside {
@@ -809,7 +811,7 @@ input[placeholder], [placeholder], *[placeholder] { color: #fff !important; }
 .panel .work3,
 .panel .album {
 	display:none;
-	font-family:arial;
+	font-family: 'Open Sans', sans-serif;
 	color:white;
 	height: 100%;
 	font-weight: 100;
@@ -879,13 +881,19 @@ color: #F0506A; }
 
 .imagebg-9 { background: #323232 url('../img/9.jpg') no-repeat center; }
 
-.imagebg-10 { background: #323232 url('../img/10.jpg') no-repeat center bottom; }
+.imagebg-9-panel { background: #FFF url('../img/hl_logo_02.png') no-repeat center; }
 
-.imagebg-11 { background: #323232 url('../img/11.jpg') no-repeat center bottom; }
+.imagebg-10 { background: #323232 url('../img/mina_bike_balboapark.jpg') no-repeat center; }
 
-.imagebg-12 { background: #323232 url('../img/12.jpg') no-repeat center bottom; }
+.imagebg-11 { background: #323232 url('../img/mina_krabi.jpg') no-repeat right; }
 
-.imagebg-13 { background: #323232 url('../img/13.jpg') no-repeat center bottom; }
+.imagebg-12 { background: #483e46 url('../img/mina_climbing.gif') no-repeat center; }
+
+.imagebg-13 { background: #729c98 url('../img/bender_raider300.gif') no-repeat right; }
+
+.imagebg-14 { background: #556270 url('../img/mina_slackdrop.gif') no-repeat center; }
+
+.imagebg-15 { background: #556270 url('../img/rainbow_coronado300.JPG') no-repeat left; }
 
 
 /*------------- Content Slider -------------*/
@@ -1285,6 +1293,8 @@ color: #F0506A; }
 	float:left;
 }
 
+
+
 p.inline {
 	padding-top: 10px;
 }
@@ -1308,6 +1318,7 @@ p.inline {
 	text-align: right;
 	padding-top: 200px;
 }
+
 .text-center-bottom {
 	text-align: center;
 	padding-top: 170px;
@@ -1322,7 +1333,17 @@ p.inline {
 .box-list-text {
 	font-size: 20px;
 	line-height: 1.5;
+	margin-left: 30px;
 	list-style: none;
+}
+
+.box-list-text > li {
+	display: block;
+}
+
+.box-list-text > li:before {
+	content: "» ";
+	/*padding-right: 5px;*/
 }
 
 .portfolio-info-text {
@@ -1333,4 +1354,8 @@ p.inline {
 
 .font-small {
 	font-size: 16px;
+}
+
+#contact {
+	text-align: center;
 }

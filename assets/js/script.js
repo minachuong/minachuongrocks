@@ -32,7 +32,7 @@ function backstretch() { // used for fulldiv backgrounds
 	$(".portfolio-img.one").backstretch("assets/img/paulsplanner_icons.jpg");
 	// $(".portfolio-img.two").backstretch("assets/img/9.jpg");
 	$(".portfolio-img.three").backstretch("assets/img/hourslogger_logo.png");
-	$(".portfolio-img.four").backstretch("assets/img/11.jpg");
+	$(".portfolio-img.four").backstretch("assets/img/mina_aerial_mermaid_300_bgblur.png");
 	$(".portfolio-img.five").backstretch("assets/img/12.jpg");
 	$(".portfolio-img.six").backstretch("assets/img/13.jpg");
 	$(".portfolio-img.seven").backstretch("assets/img/14.jpg");
@@ -49,7 +49,7 @@ function backstretch() { // used for fulldiv backgrounds
 	$(".portfolio-img.one").backstretch("assets/img/paulsplanner_icons.jpg");
 	$(".portfolio-img.two").backstretch("assets/img/9.jpg");
 	$(".portfolio-img.three").backstretch("assets/img/hourslogger_logo.png");
-	$(".portfolio-img.four").backstretch("assets/img/11.jpg");
+	$(".portfolio-img.four").backstretch("assets/img/mina_aerial_mermaid_300_bgblur.png");
 	$(".portfolio-img.five").backstretch("assets/img/12.jpg");
 	$(".portfolio-img.six").backstretch("assets/img/13.jpg");
 	$(".portfolio-img.seven").backstretch("assets/img/14.jpg");
