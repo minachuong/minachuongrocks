@@ -794,6 +794,7 @@ input[placeholder], [placeholder], *[placeholder] { color: #fff !important; }
 	z-index: 90000; }
 
 .panel .work,
+.panel .work3,
 .panel .album {
 	display:none;
 	font-family:arial;
@@ -811,7 +812,7 @@ input[placeholder], [placeholder], *[placeholder] { color: #fff !important; }
     position:absolute;
     right: 5%;
     top: 5%;
-	font-family: 'Lato', sans-serif;
+		font-family: 'Lato', sans-serif;
     font-weight: 700;
     color: #fff;
     font-size: 45px;
