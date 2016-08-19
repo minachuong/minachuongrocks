@@ -793,7 +793,7 @@ input[placeholder], [placeholder], *[placeholder] { color: #fff !important; }
 	background-color:#323232;
 	z-index: 90000; }
 
-.panel .work, /* Add the panels you use here */
+.panel .work,
 .panel .album {
 	display:none;
 	font-family:arial;

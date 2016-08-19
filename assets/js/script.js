@@ -74,7 +74,7 @@ function panels() {
             $('.panel .album').fadeIn(500);
         });
     });
-    $('i.closeicon').on('click', function() {
+    $('.closeicon').on('click', function() {
         $('.panel .album').fadeOut(500, function() {
         	$("body").removeClass("no-scroll");
             $('.panel').animate({
@@ -83,7 +83,7 @@ function panels() {
         });
     });
 	// portfolio panel
-    $("#portfolio, #portfolio2, #portfolio3, #portfolio4, #portfolio5, #portfolio6, #portfolio7, #portfolio8, #portfolio9").on('click', function() {
+    $("#portfolio").on('click', function() {
     	$("body").addClass("no-scroll");
         $('.panel').animate({
             'width': 'show'
@@ -99,6 +99,38 @@ function panels() {
             }, 1000);
         });
     });
+    // $("#portfolio3").on('click', function() {
+    // 	$("body").addClass("no-scroll");
+    //     $('.panel').animate({
+    //         'width': 'show'
+    //     }, 1000, function() {
+    //         $('.panel .work-3').fadeIn(500);
+    //     });
+    // });
+    // $('.closeicon').on('click', function() {
+    //     $('.panel .work-3').fadeOut(500, function() {
+    //     	$("body").removeClass("no-scroll");
+    //         $('.panel').animate({
+    //             'width': 'hide'
+    //         }, 1000);
+    //     });
+    // });
+    // $("#portfolio, #portfolio2, #portfolio3, #portfolio4, #portfolio5, #portfolio6, #portfolio7, #portfolio8, #portfolio9").on('click', function() {
+    // 	$("body").addClass("no-scroll");
+    //     $('.panel').animate({
+    //         'width': 'show'
+    //     }, 1000, function() {
+    //         $('.panel .work').fadeIn(500);
+    //     });
+    // });
+    // $('.closeicon').on('click', function() {
+    //     $('.panel .work').fadeOut(500, function() {
+    //     	$("body").removeClass("no-scroll");
+    //         $('.panel').animate({
+    //             'width': 'hide'
+    //         }, 1000);
+    //     });
+    // });
 }
 
 function blogposts() { // only use if span is at the end of the row
