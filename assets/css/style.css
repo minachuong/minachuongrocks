@@ -180,11 +180,13 @@ margin: 0 0 0;
 .white { background: #FFFFFF; }
 .almost-white { background: #f5f5f5; }
 .darkerblue { background: #06213d}
+
 /*text colors*/
-.navyblue { color: #333C98; }
+.navyblue-text { color: #333C98; }
 .white-text { color: #FFF; }
 .sage-text { color: #94C7B6; }
 .white-text:hover { color: #000; }
+.coral-text:hover { color: #F0506A; }
 
 
 /* Content Styles */
@@ -199,6 +201,7 @@ margin: 0 0 0;
 	border: 5px solid #fff;
 	overflow: hidden; }
 
+/*border colors*/
 .border {
 	border: 5px solid #fff;
 }
@@ -206,12 +209,21 @@ margin: 0 0 0;
 .border-orange {
 	border: 5px solid #faa732;
 }
+.border-turquoise {
+	border: 5px solid #03b7b7;
+}
 
 .border-blue {
 	border: 5px solid #00B4CC;
 }
 .border-grey {
 	border: 5px solid #d4d3d3;
+}
+.border-coral {
+	border: 5px solid #F0506A;
+}
+.border-darksage {
+	border: 5px solid #729c98;
 }
 
 
@@ -222,7 +234,7 @@ margin: 0 0 0;
 	position: relative;
 	left: -33px;
 	margin: 30px 0;
-	border: 5px solid #fff;
+	border: 5px solid #F0506A;
 	overflow: hidden; }
 
 .outside {
@@ -853,7 +865,7 @@ input[placeholder], [placeholder], *[placeholder] { color: #fff !important; }
 .imagebg-3 { background: #00B4CC url('../img/paulsplanner_01_ht300.png') no-repeat left top;
 color: #F0506A; }
 
-.imagebg-3-panel { background: #00B4CC url('../img/paulsplanner_landing.png') no-repeat left top; }
+.imagebg-3-panel { background: #00B4CC url('../img/paulsplanner_01_ht300.png') no-repeat left; }
 
 .imagebg-4 { background: #F0506A url('../img/mina_aerial_mermaid_300_bgblur.png') no-repeat center; }
 

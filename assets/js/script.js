@@ -29,7 +29,7 @@ function backstretch() { // used for fulldiv backgrounds
 		fade: 750
 	});
 	// $(".bp-post.two").backstretch("assets/img/12.jpg");
-	$(".portfolio-img.one").backstretch("assets/img/paulsplanner_landing.png");
+	$(".portfolio-img.one").backstretch("assets/img/paulsplanner_icons.jpg");
 	// $(".portfolio-img.two").backstretch("assets/img/9.jpg");
 	$(".portfolio-img.three").backstretch("assets/img/hourslogger_logo.png");
 	$(".portfolio-img.four").backstretch("assets/img/11.jpg");
@@ -46,7 +46,7 @@ function backstretch() { // used for fulldiv backgrounds
 		fade: 750
 	});
 	$(".bp-post.two").backstretch("assets/img/12.jpg");
-	$(".portfolio-img.one").backstretch("assets/img/paulsplanner_landing.png");
+	$(".portfolio-img.one").backstretch("assets/img/paulsplanner_icons.jpg");
 	$(".portfolio-img.two").backstretch("assets/img/9.jpg");
 	$(".portfolio-img.three").backstretch("assets/img/hourslogger_logo.png");
 	$(".portfolio-img.four").backstretch("assets/img/11.jpg");
