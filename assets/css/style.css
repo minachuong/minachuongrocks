@@ -1,4 +1,5 @@
 @import url(http://fonts.googleapis.com/css?family=Lato:700,400,300,100);
+@import url(https://fonts.googleapis.com/css?family=Pacifico);
 @import url(../fontawesome/css/font-awesome.min.css);
 html {
 	-webkit-font-smoothing: antialiased;
@@ -877,7 +878,7 @@ color: #F0506A; }
 
 .imagebg-7 { background: #06213d url('http://sdtechscene.org/wp-content/uploads/2014/08/sd-tech-scene-logo-min.png') no-repeat center; }
 
-.imagebg-8 { background: #323232 url('../img/mina_speaking300.jpg') no-repeat right; }
+.imagebg-8 { background: #323232 url('../img/mina_speaking300.jpg') no-repeat center; }
 
 .imagebg-9 { background: #323232 url('../img/9.jpg') no-repeat center; }
 
@@ -1172,6 +1173,7 @@ color: #F0506A; }
 
 /*------------- Sizes -------------*/
 
+
 @media (max-width: 1100px) {
 .menu {
 	right: 0px !important;
@@ -1200,33 +1202,47 @@ color: #F0506A; }
 	.shrink-text { font-size: 20px; line-height: 1.5; }
 }
 
-@media (max-width: 500px) {
-
+@media (max-width: 420px) {
+	h1, h2, h3, h4 {
+		font-family: 'Pacifico', cursive;
+		font-size: 20px;}
+	p, .box-list-text > li, p.portfolio-info-text {
+		font-size: 16px;}
 	body { padding: 20px;}
-
 	.outer-box {
 		width: 105%;
 		left: -5%; }
-
 	.shrink-text { font-size: 18px; line-height: 1; }
-
 	.svg_icons {
 		height: 48px;
 	  width: 48px;
-		padding: 15px 5px 5px;
-	  }
-
+		padding: 15px 5px 5px;}
 	#toolset_icon01 {
-		padding-top: 18px;
+		padding-top: 30px;
 		text-align: center;
 		background-image: url("../img/rspec_logo32.png");
-		background-repeat: no-repeat;}
-
+		background-repeat: no-repeat;
+		background-position-y: 15px;}
+		.outer-box-work {
+			border: 0px;
+			padding: 0px;
+			width: 100%;
+			margin: 0px 0px 20px;
+		}
+		div.well.purple.fixed-height {
+			height: 325px !important;
+		}
+		p.inline {
+			display: none;
+		}
 }
 
 @media (max-width: 320px) {
-
-	p { font-size: 18px;}
+	h1, h2, h3, h4 {
+		font-family: 'Pacifico', cursive;
+		font-size: 20px;}
+	p, .box-list-text > li, p.portfolio-info-text {
+		font-size: 16px;}
 	.svg_icons {
 		height: 32px;
 	  width: 32px;
@@ -1235,7 +1251,18 @@ color: #F0506A; }
 		padding-top: 9px;
 		text-align: center;
 		background-image: url("../img/rspec_logo32.png") center no-repeat;}
-
+	.imagebg-3 { background: #00B4CC url('../img/paulsplanner_fullpage300.png') no-repeat center top;
+		color: #F0506A; }
+	.outer-box-work {
+		border: 0px;
+		padding: 0px;
+		width: 100%;
+		margin: 0px 0px 20px;
+	}
+	div.well.purple.fixed-height {
+		height: 325px !important;
+	}
+	div.block { margin-top: 0px; padding-top: 0px;}
 }
 
 .slide-text-1 {
@@ -1286,7 +1313,9 @@ color: #F0506A; }
 }
 
 .icon {
-	padding: 10px;
+	margin: 10px;
+	width: 32px;
+	height: 32px;
 }
 
 .inline {
