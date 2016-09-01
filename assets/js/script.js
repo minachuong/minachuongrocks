@@ -33,8 +33,8 @@ function backstretch() { // used for fulldiv backgrounds
 	// $(".portfolio-img.two").backstretch("assets/img/9.jpg");
 	$(".portfolio-img.three").backstretch("assets/img/hourslogger_logo.png");
 	$(".portfolio-img.four").backstretch("assets/img/mina_aerial_mermaid_300_bgblur.png");
-	$(".portfolio-img.five").backstretch("assets/img/12.jpg");
-	$(".portfolio-img.six").backstretch("assets/img/13.jpg");
+	$(".portfolio-img.five").backstretch("assets/img/geniescenter_mini.jpg");
+	$(".portfolio-img.six").backstretch("assets/img/brattleborotango.png");
 	$(".portfolio-img.seven").backstretch("assets/img/14.jpg");
 	$(".portfolio-img.eight").backstretch("assets/img/15.jpg");
 	$(".portfolio-img.nine").backstretch("assets/img/16.jpg");
@@ -50,8 +50,8 @@ function backstretch() { // used for fulldiv backgrounds
 	$(".portfolio-img.two").backstretch("assets/img/9.jpg");
 	$(".portfolio-img.three").backstretch("assets/img/hourslogger_logo.png");
 	$(".portfolio-img.four").backstretch("assets/img/mina_aerial_mermaid_300_bgblur.png");
-	$(".portfolio-img.five").backstretch("assets/img/12.jpg");
-	$(".portfolio-img.six").backstretch("assets/img/13.jpg");
+	$(".portfolio-img.five").backstretch("assets/img/geniescenter.png");
+	$(".portfolio-img.six").backstretch("assets/img/brattleborotango.png");
 	$(".portfolio-img.seven").backstretch("assets/img/14.jpg");
 	$(".portfolio-img.eight").backstretch("assets/img/15.jpg");
 	$(".portfolio-img.nine").backstretch("assets/img/16.jpg");
@@ -99,7 +99,6 @@ function panels() {
             }, 1000);
         });
     });
-//FIXME: target hourslogger and show cooresponding panel
 		$('#portfolio3').on('click', function() {
 			$("body").addClass("no-scroll");
 				$('.panel').animate({
@@ -110,6 +109,38 @@ function panels() {
 		});
 		$('.closeicon').on('click', function() {
 				$('.panel .work3').fadeOut(500, function() {
+					$("body").removeClass("no-scroll");
+						$('.panel').animate({
+								'width': 'hide'
+						}, 1000);
+				});
+		});
+		$('#portfolio4').on('click', function() {
+			$("body").addClass("no-scroll");
+				$('.panel').animate({
+						'width': 'show'
+				}, 1000, function() {
+						$('.panel .work4').fadeIn(500);
+				});
+		});
+		$('.closeicon').on('click', function() {
+				$('.panel .work4').fadeOut(500, function() {
+					$("body").removeClass("no-scroll");
+						$('.panel').animate({
+								'width': 'hide'
+						}, 1000);
+				});
+		});
+		$('#portfolio5').on('click', function() {
+			$("body").addClass("no-scroll");
+				$('.panel').animate({
+						'width': 'show'
+				}, 1000, function() {
+						$('.panel .work5').fadeIn(500);
+				});
+		});
+		$('.closeicon').on('click', function() {
+				$('.panel .work5').fadeOut(500, function() {
 					$("body").removeClass("no-scroll");
 						$('.panel').animate({
 								'width': 'hide'

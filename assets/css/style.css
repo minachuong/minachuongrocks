@@ -491,7 +491,7 @@ margin: 0 0 0;
 	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)"; }
 
 .effect-two {
-	background: rgba(51,51,51,0.5);
+	background: rgba(51,51,51,0.85);
 	-webkit-transform: rotate(-45deg) scale(2);
 	-moz-transform: rotate(-45deg) scale(2);
 	-o-transform: rotate(-45deg) scale(2);
@@ -537,7 +537,7 @@ margin: 0 0 0;
 	opacity: 0;
 	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)"; }
 .effect-four:hover {
-	background: rgba(51,51,51,0.5);
+	background: rgba(51,51,51,0.75);
 	-webkit-transform: rotate(0deg);
 	-moz-transform: rotate(0deg);
 	-o-transform: rotate(0deg);
@@ -810,6 +810,8 @@ input[placeholder], [placeholder], *[placeholder] { color: #fff !important; }
 
 .panel .work,
 .panel .work3,
+.panel .work4,
+.panel .work5,
 .panel .album {
 	display:none;
 	font-family: 'Open Sans', sans-serif;
@@ -880,7 +882,7 @@ color: #F0506A; }
 
 .imagebg-8 { background: #323232 url('../img/mina_speaking300.jpg') no-repeat center; }
 
-.imagebg-9 { background: #323232 url('../img/9.jpg') no-repeat center; }
+/*.imagebg-9 { background: #323232 url('../img/9.jpg') no-repeat center; }*/
 
 .imagebg-9-panel { background: #FFF url('../img/hl_logo_02.png') no-repeat center; }
 
@@ -895,6 +897,10 @@ color: #F0506A; }
 .imagebg-14 { background: #556270 url('../img/mina_slackdrop.gif') no-repeat center; }
 
 .imagebg-15 { background: #556270 url('../img/rainbow_coronado300.JPG') no-repeat left; }
+
+.imagebg-16 { background: #556270 url('../img/geniescenter.png') no-repeat center; }
+.imagebg-17 { background: #556270 url('../img/brattleborotango.png') no-repeat center; }
+.imagebg-18 { background: #556270 url('../img/brattleborotango_beforeafter.png') no-repeat center; }
 
 
 /*------------- Content Slider -------------*/
