@@ -900,7 +900,17 @@ color: #F0506A; }
 
 .imagebg-16 { background: #556270 url('../img/geniescenter.png') no-repeat center; }
 .imagebg-17 { background: #556270 url('../img/brattleborotango.png') no-repeat center; }
-.imagebg-18 { background: #556270 url('../img/brattleborotango_beforeafter.png') no-repeat center; }
+.imagebg-18 {
+	background: #556270 url('../img/brattletango_before.png') no-repeat center;
+	width: 404px;
+	height:254px;
+	margin-bottom: 20px;
+}
+.imagebg-19 {
+	background: #556270 url('../img/brattletango_after.png') no-repeat center;
+	width: 404px;
+	height:477px;
+}
 
 
 /*------------- Content Slider -------------*/
@@ -1385,6 +1395,9 @@ p.inline {
 	padding: 10px;
 	font-size: 18px;
 	margin-bottom: 0px;
+}
+.work-panel-content-img {
+	padding: 20px;
 }
 
 .font-small {
