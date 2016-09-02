@@ -187,6 +187,7 @@ margin: 0 0 0;
 
 /*text colors*/
 .navyblue-text { color: #333C98; }
+.turquoise-text { color: #03b7b7; }
 .white-text { color: #FFF; }
 .sage-text { color: #94C7B6; }
 .white-text:hover { color: #000; }
@@ -247,11 +248,13 @@ margin: 0 0 0;
 	left: -120px;
 	bottom: 0;  }
 
-.article {margin-top: 20px;} /* Used in news section */
+	/* Used in news section */
+.article {margin-top: 20px;}
 
 .bold { font-weight: 700; }
 
-.copy { /* Used copyright section */
+/* Used copyright section */
+.copy {
 	position: absolute;
 	bottom: 0; }
 
@@ -841,6 +844,10 @@ input[placeholder], [placeholder], *[placeholder] { color: #fff !important; }
 .row-portfolio {
 	margin-top: 30px;
 }
+.panel-link {
+	font-family: 'Pacifico', cursive;
+	font-size: 20px;
+}
 
 /*------------- Image Background -------------*/
 
@@ -902,6 +909,7 @@ color: #F0506A; }
 .imagebg-17 { background: #556270 url('../img/brattleborotango.png') no-repeat center; }
 .imagebg-18 {
 	background: #556270 url('../img/brattletango_before.png') no-repeat center;
+	/*FIXME: for responsiveness*/
 	width: 404px;
 	height:254px;
 	margin-bottom: 20px;
@@ -1234,7 +1242,7 @@ color: #F0506A; }
 	  width: 48px;
 		padding: 15px 5px 5px;}
 	#toolset_icon01 {
-		padding-top: 30px;
+		padding-top: 22px;
 		text-align: center;
 		background-image: url("../img/rspec_logo32.png");
 		background-repeat: no-repeat;
@@ -1246,7 +1254,7 @@ color: #F0506A; }
 			margin: 0px 0px 20px;
 		}
 		div.well.purple.fixed-height {
-			height: 325px !important;
+			height: auto !important;
 		}
 		p.inline {
 			display: none;
@@ -1264,10 +1272,12 @@ color: #F0506A; }
 	  width: 32px;
 		padding: 15px 3px 5px;}
 	#toolset_icon01 {
-		padding-top: 9px;
+		padding-top: 23px;
 		text-align: center;
-		background-image: url("../img/rspec_logo32.png") center no-repeat;}
-	.imagebg-3 { background: #00B4CC url('../img/paulsplanner_fullpage300.png') no-repeat center top;
+		/*FIXME: responsiveness?*/
+		background-image: url("../img/rspec_logo16.png");}
+	.imagebg-3 {
+		background: #00B4CC url('../img/paulsplanner_fullpage300.png') no-repeat center top;
 		color: #F0506A; }
 	.outer-box-work {
 		border: 0px;
@@ -1275,8 +1285,12 @@ color: #F0506A; }
 		width: 100%;
 		margin: 0px 0px 20px;
 	}
+	div > p.quotes {
+		font-size: 16px;
+		padding-left: 40px;
+	}
 	div.well.purple.fixed-height {
-		height: 325px !important;
+		height: auto !important;
 	}
 	div.block { margin-top: 0px; padding-top: 0px;}
 }

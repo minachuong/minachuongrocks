@@ -33,7 +33,7 @@ function backstretch() { // used for fulldiv backgrounds
 	// $(".portfolio-img.two").backstretch("assets/img/9.jpg");
 	$(".portfolio-img.three").backstretch("assets/img/hourslogger_logo.png");
 	$(".portfolio-img.four").backstretch("assets/img/mina_aerial_mermaid_300_bgblur.png");
-	$(".portfolio-img.five").backstretch("assets/img/geniescenter_mini.jpg");
+	$(".portfolio-img.five").backstretch("assets/img/geniescenter_mini.png");
 	$(".portfolio-img.six").backstretch("assets/img/brattleborotango.png");
 	$(".portfolio-img.seven").backstretch("assets/img/14.jpg");
 	$(".portfolio-img.eight").backstretch("assets/img/15.jpg");
@@ -50,7 +50,7 @@ function backstretch() { // used for fulldiv backgrounds
 	$(".portfolio-img.two").backstretch("assets/img/9.jpg");
 	$(".portfolio-img.three").backstretch("assets/img/hourslogger_logo.png");
 	$(".portfolio-img.four").backstretch("assets/img/mina_aerial_mermaid_300_bgblur.png");
-	$(".portfolio-img.five").backstretch("assets/img/geniescenter.png");
+	$(".portfolio-img.five").backstretch("assets/img/geniescenter_mini.png");
 	$(".portfolio-img.six").backstretch("assets/img/brattleborotango.png");
 	$(".portfolio-img.seven").backstretch("assets/img/14.jpg");
 	$(".portfolio-img.eight").backstretch("assets/img/15.jpg");
